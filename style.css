@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+ul{
+    display: flex;
+   gap: 40px;
+
+}
+ul li{
+    color: black;
+}
+.number{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.number button{
+    background-color: #3B9254;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.rasm{
+    background-image: url(./assets/images/main-pic-bg.png);
+    border-radius: 30px;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    padding: 280px 0 0 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rasm h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.btn{
+    background-color: #3B9254;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 288px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center ;
+    margin-top: 20px;
+    margin-left: 150px;
+}
