@@ -207,3 +207,22 @@ footer  {
 .social-links p{
     margin-top: 10px;
 }
+.first i{
+    color: blue;
+}
+.second i{
+    color: rgb(21, 255, 0);
+}
+.third i{
+    color: rgb(0, 170, 255);
+}
+.fourth i{
+    color: #ff0a64;
+    ;
+}
+.contacts p i{
+    color: #3B9254;
+}
+footer h3{
+    color: #3B9254;
+}

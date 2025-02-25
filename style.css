@@ -572,12 +572,31 @@ footer  {
     height: 300px;
     padding: 80px 100px;
 }
+footer h3{
+    color: #3B9254;
+}
 .contacts div{
     margin-top: 10px;
+}
+.contacts p i{
+    color: #3B9254;
 }
 .map p{
     margin-top: 10px;
 }
 .social-links p{
     margin-top: 10px;
+}
+.first1 i{
+    color: blue;
+}
+.second1 i{
+    color: rgb(21, 255, 0);
+}
+.third1 i{
+    color: rgb(0, 170, 255);
+}
+.fourth1 i{
+    color: #ff0a64;
+    ;
 }
