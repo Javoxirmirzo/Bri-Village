@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+ul li {
+    color: black;
+}
+.number {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.number button {
+    background-color: #3B9254;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.number1{
+    margin: 30px 150px;
+}
+.number1 img{
+    margin-top: 20px;
+}
+.comfort{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 150px;
+    
+}
+.land{
+    background-color: #EAF5ED;
+    border-radius: 20px;
+    width: 151px;
+    padding: 5px 10px;
+
+}
+.land p{
+    margin-left: 10px;
+}
+
+.terrasa{
+    background-color: #EAF5ED;
+    border-radius: 20px;
+    width: 142px;
+    padding: 5px 20px;
+}
+.location{
+    background-color: #EAF5ED;
+    border-radius: 20px;
+    width: 171px;
+    padding: 5px 20px;
+}
+.sofa{
+    background-color: #EAF5ED;
+    border-radius: 20px;
+    width: 112px;
+    padding: 5px 22px;
+}
+.divan{
+    background-color: #EAF5ED;
+    border-radius: 20px;
+    width: 98px;
+    padding: 5px 20px;
+}
+.text{
+    margin: 30px 150px;
+    margin-right: 600px;
+}
+
+.comforts{
+    margin: 30px 150px;
+    background-color: #F8F8F8;
+    height: 350px;
+    padding: 50px 50px ;
+}
+.bed{
+    display: flex;
+    margin-top: 20px;
+}
+.fridge{
+    padding-top: 20px;
+}
+.grill{
+    padding-top: 20px;
+}
+.iron{
+    padding-top: 20px;
+}
+.stove{
+    padding-top: 20px;
+}
+.tv{
+    padding-top: 20px;
+}
+.fan{
+    padding-top: 20px;
+}
+.microwave{
+    padding-top: 20px;
+}
+.wifi{
+    padding-top: 20px;
+}
+.tw{
+    padding-top: 20px;
+}
+.shower{
+    padding-top: 20px;
+}
+.freezer div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.wc{
+    margin-left: 40px;
+}
+.wc div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.hot{
+    margin-left: 40px;
+}
+.hot div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.cooking{
+    margin-left: 40px;
+}
+.cooking div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.text11{
+    margin-right: 200px;
+    margin-bottom: 90px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 30px 100px;
+    /* gap: 20px; */
+}
+.back img{
+     width: 580px;
+    height: 380px; 
+    border-radius: 40px;
+}
+.text11 :nth-child(2){
+    margin-top: 20px;
+}
+.text11 :nth-child(3){
+    margin-top: 20px;
+}
+.text11 :nth-child(4){
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3B9254;
+    color: white;
+    width: 215px;
+    height: 56px;
+}
+.matn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.transport{
+    display: flex;
+    margin: 30px 150px;
+    gap: 50px;
+}
+.texts{
+    /* padding-top: 40px; */
+    background-color: #F8F8F8;
+    width: 680px;
+    height: 670px;
+    border-radius: 20px;
+    padding: 30px 0 0 30px;
+}
+.pp{
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    width: 190px;
+    height: 30px;
+    padding-top: 6px;
+    text-align: center;
+}
+.transports{
+    /* margin: 0 20px 0 20px; */
+    border-radius: 10px;
+    padding: 30px 0 30px 80px;
+    display: flex;
+    gap: 60px;
+    align-items: center; 
+    background-color: #EEEEEE;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+}
+.btn2{
+    margin-top: 50px;
+}
+.payment{
+    margin-top: 20px;
+}
+.pay{
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pay p {
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    padding-top: 6px;
+    text-align: center;
+}
+.time{
+    margin-top: 10px;
+}
+.time .pp{
+    margin-top: 20px;
+}
+.prices{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.prices p{
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    width: 150px;
+    padding-top: 6px;
+    height:30px ;
+    text-align: center;
+}
+.transport button{
+    width: 200px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3B9254;
+    color: white;
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+    height: 200px;
+    padding: 30px;
+    color: white;
+    gap: 100px;
+    text-align: center;
+    background-image: url(./assets/images/Asset\ 1\ 1.png);
+    border-radius: 10px;
+    background-color: #3B9254;
+}
+.book button{
+    width: 200px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    background-color: #EAF5ED;
+    color: #3B9254;
+}
+.services{
+    margin: 30px 100px;
+    
+  }
+  .photos{
+    display: flex;
+    gap: 90px;
+    margin-top: 25px;
+}
+.photos h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+footer  {
+    display: flex;
+    gap: 50px;
+    background-color: #F8F8F8;
+    height: 300px;
+    padding: 80px 100px;
+}
+footer h3{
+    color: #3B9254;
+}
+.contacts div{
+    margin-top: 10px;
+}
+.contacts p i{
+    color: #3B9254;
+}
+.map p{
+    margin-top: 10px;
+}
+.social-links p{
+    margin-top: 10px;
+}
+.first i{
+    color: blue;
+}
+.second i{
+    color: rgb(21, 255, 0);
+}
+.third i{
+    color: rgb(0, 170, 255);
+}
+.fourth i{
+    color: #ff0a64;
+    ;
+}
